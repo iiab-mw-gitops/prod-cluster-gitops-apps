@@ -128,9 +128,9 @@ spec:
                                               .replace("http://", ""))
         else:
             conn = http.client.HTTPSConnection("$(params.GITHUB_HOST_URL)")
-         print("URL: ")
+         print("URL:")
          print(open_pr_url)
-         print("Auth Header: ")
+         print("Auth Header:")
          print(authHeader)
         conn.request(
             "POST",
