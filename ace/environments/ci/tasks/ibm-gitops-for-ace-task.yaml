@@ -5,7 +5,7 @@ metadata:
   annotations:
     description: Promotes an ACE Integration Server Container Image by writing or opening a PR against gitops repo
     app.openshift.io/description: Promotes an ACE Integration Server Container Image by writing or opening a PR against gitops repo
-    app.openshift.io/vcs-uri: https://cloud-native-toolkit-demos/multi-tenancy-gitops-apps
+    app.openshift.io/vcs-uri: https://cloud-native-toolkit-demos/prod-cluster-gitops-apps
     app.openshift.io/vcs-ref: master
   labels:
     version: 0.0.0

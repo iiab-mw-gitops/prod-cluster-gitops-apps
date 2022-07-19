@@ -8,7 +8,7 @@ tkn pipeline start \
   --param is-config-repo-url=git@github.com:${GIT_ORG}/ace-config.git \
   --param is-infra-repo-url=git@github.com:${GIT_ORG}/ace-infra.git \
   --param git-ops-repo-url=git@github.com:${GIT_ORG}/prod-cluster-gitops-apps.git \
-  --param gitops-apps-repo-full-name=${GIT_ORG}/multi-tenancy-gitops-apps \
+  --param gitops-apps-repo-full-name=${GIT_ORG}/prod-cluster-gitops-apps \
   --workspace name=shared-workspace,claimName=ace-config-pvc \
   --workspace name=ace-config-repo-secret,secret=ace-config-at-github \
   --workspace name=ace-infra-repo-secret,secret=ace-infra-at-github \

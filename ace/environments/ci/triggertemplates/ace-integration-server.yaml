@@ -23,7 +23,7 @@ spec:
           - name: git-ops-repo-url
             value: git@github.com:$(tt.params.git-org)/prod-cluster-gitops-apps.git
           - name: gitops-apps-repo-full-name
-            value: $(tt.params.git-org)/multi-tenancy-gitops-apps
+            value: $(tt.params.git-org)/prod-cluster-gitops-apps
         pipelineRef:
           name: ace-integration-server
         serviceAccountName: pipeline

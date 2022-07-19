@@ -9,5 +9,5 @@ data:
   owner: cloud-native-toolkit-demos
   parentdir: .
   protocol: https
-  repo: multi-tenancy-gitops-apps
+  repo: prod-cluster-gitops-apps
   url: https://github.com/cloud-native-toolkit-demos/prod-cluster-gitops-apps.git
