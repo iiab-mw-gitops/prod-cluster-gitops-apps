@@ -51,7 +51,7 @@ resources:
   - tasks/resolve-props.yaml
   - triggerbindings/ace-integration-server.yaml
   - triggertemplates/ace-integration-server.yaml
-  - secrets/gitops-repo-pk-secret-prod-cluster-gitops-apps-ref-github.yaml
+  - secrets/gitops-repo-pk-secret-prod-cluster-gitops-apps-at-github.yaml
   - secrets/gitops-repo-pk-secret-ace-config-at-github.yaml
   - secrets/gitops-repo-pk-secret-ace-infra-at-github.yaml
   - secrets/gitops-repo-pk-secret-service-repo-at-github.yaml
