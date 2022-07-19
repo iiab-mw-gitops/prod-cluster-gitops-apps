@@ -12,4 +12,4 @@ tkn pipeline start \
   --workspace name=shared-workspace,claimName=ace-config-pvc \
   --workspace name=ace-config-repo-secret,secret=ace-config-at-github \
   --workspace name=ace-infra-repo-secret,secret=ace-infra-at-github \
-  --workspace name=gitops-repo-secret,secret=multi-tenancy-gitops-apps-at-github
+  --workspace name=gitops-repo-secret,secret=prod-cluster-gitops-apps-at-github

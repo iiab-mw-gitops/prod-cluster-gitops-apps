@@ -11,5 +11,5 @@ tkn -n ci pipeline start \
   --param gitops-apps-repo-full-name=${GIT_ORG}/multi-tenancy-gitops-apps \
   --workspace name=shared-workspace,claimName=ace-integration-server \
   --workspace name=ace-infra-repo-secret,secret=ace-infra-at-github \
-  --workspace name=gitops-repo-secret,secret=gitops-repo-pk-secret-prod-cluster-gitops-apps-at-github \
+  --workspace name=gitops-repo-secret,secret=prod-cluster-gitops-apps-at-github \
   --workspace name=ace-source-repo-secret,secret=${SOURCE_REPO}-at-github
