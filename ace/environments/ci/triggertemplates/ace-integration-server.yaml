@@ -36,7 +36,7 @@ spec:
               secretName: ace-infra-at-github
           - name: gitops-repo-secret
             secret:
-              secretName: multi-tenancy-gitops-apps-at-github
+              secretName: gitops-repo-pk-secret-prod-cluster-gitops-apps-at-github
           - name: ace-source-repo-secret
             secret:
               secretName: $(tt.params.source-repo)-at-github
