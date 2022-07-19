@@ -19,7 +19,7 @@ spec:
   pod:
     containers:
       runtime:
-        image: image-registry.openshift-image-registry.svc:5000/ci/hello-app-rest:5f2d3a2e3298b203f1b8f97ab688f9b77e6abab2
+        image: image-registry.openshift-image-registry.svc:5000/ci/hello-app-rest:44899da010e723d8b972316ec57a962ec5df0a9b
         imagePullPolicy: Always
   configurations:
     - create-customer-serverconf.yaml
