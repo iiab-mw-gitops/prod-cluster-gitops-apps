@@ -21,5 +21,3 @@ spec:
       runtime:
         image: image-registry.openshift-image-registry.svc:5000/ci/hello-app-rest:5f2d3a2e3298b203f1b8f97ab688f9b77e6abab2
         imagePullPolicy: Always
-  configurations:
-    - create-customer-serverconf.yaml
